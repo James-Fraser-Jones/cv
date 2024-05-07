@@ -1,5 +1,7 @@
 <script>
+	import BulletList from '$lib/components/BulletList.svelte';
+
 	export let content;
 </script>
 
-<p>{content}</p>
+<BulletList {content} />

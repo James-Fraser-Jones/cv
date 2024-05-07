@@ -3,7 +3,6 @@
 	import Experience from '$lib/sections/Experience.svelte';
 	import Education from '$lib/sections/Education.svelte';
 	import Projects from '$lib/sections/Projects.svelte';
-
 	import Icon from '$lib/components/Icon.svelte';
 
 	export let icon;
@@ -12,10 +11,17 @@
 </script>
 
 <div>
-	<div class="text-xl text-brand small-caps tracking-widest flex gap-2 items-center">
+	<div
+		class="
+			text-xl text-brand small-caps tracking-widest
+			flex gap-3 items-center
+			border-solid border-b border-black
+			px-1
+		"
+	>
 		<Icon {icon} /> <span>{title}</span>
 	</div>
-	<div>
+	<div class="px-1 pt-1">
 		{#if title === 'Skills'}
 			<Skills {content} />
 		{:else if title === 'Experience'}

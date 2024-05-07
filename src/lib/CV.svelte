@@ -4,8 +4,8 @@
 	import Section from '$lib/layout/Section.svelte';
 </script>
 
-<div class="bg-slate-100 p-14 flex justify-center">
-	<div class="size-a4 bg-slate-50 shadow-2xl p-14 flex flex-col gap-4 justify-between">
+<div class="bg-slate-100 p-14 flex justify-center text-sm">
+	<div class="size-a4 bg-slate-50 shadow-2xl p-14 flex flex-col gap-4">
 		<Header content={content.header} />
 		{#each content.sections as section}
 			<Section {...section} />
