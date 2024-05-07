@@ -1,0 +1,12 @@
+<script>
+	import Icon from '$lib/components/Icon.svelte';
+
+	export let icon;
+	export let text;
+	export let url;
+</script>
+
+<a class="flex gap-2 items-center text-brand" href={url} target="_blank">
+	<Icon {icon} />
+	{text}
+</a>
