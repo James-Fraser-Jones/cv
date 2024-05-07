@@ -14,9 +14,9 @@
 			<div class="grow flex flex-col">
 				<h1 class="text-2xl">{content.header.name}</h1>
 				<h2 class="text-xl text-brand">{content.header.title}</h2>
-				<h3 class="text-base text-brand">{content.header.location}</h3>
+				<h3 class="text-base text-brand -mt-1">{content.header.location}</h3>
 			</div>
-			<div class="flex flex-col">
+			<div class="flex flex-col gap-1">
 				{#each content.header.links as link}
 					<IconLink {...link} />
 				{/each}
