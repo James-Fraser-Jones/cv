@@ -1,5 +1,5 @@
 <script>
-	export let content;
+	export let entries;
 </script>
 
-<p>{content}</p>
+<p>{entries}</p>

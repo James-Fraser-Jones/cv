@@ -1,5 +1,11 @@
 <script>
-	export let content;
+	import Entry from '$lib/components/Entry.svelte';
+
+	export let entries;
 </script>
 
-<p>{content}</p>
+<div class="flex flex-col gap-3">
+	{#each entries as entry}
+		<Entry {...entry} />
+	{/each}
+</div>
