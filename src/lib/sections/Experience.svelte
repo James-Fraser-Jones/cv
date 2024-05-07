@@ -1,11 +1,11 @@
 <script>
-	import Entry from '$lib/components/Entry.svelte';
+	import ExperienceEntry from '$lib/components/ExperienceEntry.svelte';
 
 	export let entries;
 </script>
 
 <div class="flex flex-col gap-3">
 	{#each entries as entry}
-		<Entry {...entry} />
+		<ExperienceEntry {...entry} />
 	{/each}
 </div>

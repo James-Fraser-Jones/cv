@@ -1,12 +1,12 @@
 <script>
 	import IconLink from '$lib/components/IconLink.svelte';
-	import Icon from '$lib/components/Icon.svelte';
 
 	export let title;
 	export let location;
 	export let from;
 	export let to;
 	export let details;
+	export let count = 3;
 </script>
 
 <div class="flex">
@@ -20,16 +20,15 @@
 		<div>{to}</div>
 		<div>{from}</div>
 	</div>
-	<div class="grow flex flex-col gap-1 pl-2">
-		<div class="font-medium">{title}</div>
-		{#each details as detail}
-			<div class="ml-2 flex gap-2">
-				<div class="mt-1"><Icon icon="faAngleRight" /></div>
-				<div class="grow text-justify">{detail}</div>
+	<div class="grow flex flex-col pl-2">
+		<div class="font-semibold">{title}</div>
+		{#each details.slice(0, count) as detail}
+			<div class="flex gap-2">
+				<div class="grow text-justify tracking-tight">{detail}</div>
 			</div>
 		{/each}
 	</div>
-	<div class="shrink-0 pl-4">
+	<div class="shrink-0 pl-3">
 		<IconLink {...location} />
 	</div>
 </div>
