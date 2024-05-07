@@ -1,5 +1,5 @@
 <script>
-    import App from '$lib/App.svelte';
+	import CV from '$lib/CV.svelte';
 </script>
 
-<App/>
+<CV />

@@ -1,34 +1,36 @@
 {
-	"name": "James Fraser-Jones",
-	"title": "Software Engineer",
-	"location": "London, UK",
-	"links": [
-		{
-			"icon": "faEnvelope",
-			"text": "james@fraser-jones.co.uk",
-			"url": "mailto:james@fraser-jones.co.uk"
-		},
-		{
-			"icon": "faMobilePhone",
-			"text": "+44 7940 350 499",
-			"url": "tel:+447940350499"
-		},
-		{
-			"icon": "faLinkedin",
-			"text": "linkedin.com/in/james-fraser-jones",
-			"url": "https://linkedin.com/in/james-fraser-jones"
-		},
-		{
-			"icon": "faGithub",
-			"text": "github.com/James-Fraser-Jones",
-			"url": "https://github.com/James-Fraser-Jones"
-		},
-		{
-			"icon": "faGlobe",
-			"text": "www.fraser-jones.co.uk",
-			"url": "https://www.fraser-jones.co.uk"
-		}
-	],
+	"header": {
+		"name": "James Fraser-Jones",
+		"title": "Software Engineer",
+		"location": "London, UK",
+		"links": [
+			{
+				"icon": "faEnvelope",
+				"text": "james@fraser-jones.co.uk",
+				"url": "mailto:james@fraser-jones.co.uk"
+			},
+			{
+				"icon": "faMobilePhone",
+				"text": "+44 7940 350 499",
+				"url": "tel:+447940350499"
+			},
+			{
+				"icon": "faLinkedin",
+				"text": "linkedin.com/in/james-fraser-jones",
+				"url": "https://linkedin.com/in/james-fraser-jones"
+			},
+			{
+				"icon": "faGithub",
+				"text": "github.com/James-Fraser-Jones",
+				"url": "https://github.com/James-Fraser-Jones"
+			},
+			{
+				"icon": "faGlobe",
+				"text": "www.fraser-jones.co.uk",
+				"url": "https://www.fraser-jones.co.uk"
+			}
+		]
+	},
 	"skills": [
 		"Typescript/JS",
 		"React",
@@ -54,9 +56,9 @@
 			"details": [
 				"Enhanced codebase reliability through targeted refactoring of problematic classes and interfaces, decreasing related Jira issues raised by QA by ∼40%",
 				"Extensively utilised debugging tools to pinpoint and resolve numerous game-breaking bugs, whilst working under tight release schedules",
-				"Leveraged the Python ecosystem to streamline data hand-over procedures, strengthening collaboration with other departments"
-				//"Delivered substantially improved frame-rates on projects, using algorithm and cache optimisation, and fine-tuning of critical functions",
-				//"Promoted company cohesion by facilitating events that aided newcomers in understanding the business's technology stack and operating processes",
+				"Leveraged the Python ecosystem to streamline data hand-over procedures, strengthening collaboration with other departments",
+				"Delivered substantially improved frame-rates on projects, using algorithm and cache optimisation, and fine-tuning of critical functions",
+				"Promoted company cohesion by facilitating events that aided newcomers in understanding the business's technology stack and operating processes"
 			]
 		},
 		{
@@ -71,9 +73,9 @@
 			"details": [
 				"Employed responsive design principles and dynamic layouts using flexbox and grid, to revamp legacy UIs and vastly improve usability on mobile devices",
 				"Used my expertise with APIs, databases and containerization to aid in the planning and execution of a large monolith-to-microservices migration project",
-				"Applied deep understanding of the subject matter to deliver comprehensive tutoring for a range of ages and abilities, from KS3 to undergraduate level"
-				//"Tailored sessions to cater to personal needs and preferences, employing a range of teaching methods, and evaluating them with student feedback",
-				//Guaranteed complete syllabus coverage ahead of crucial exam deadlines, through structured timetabling, and regular evaluation of students' progress,
+				"Applied deep understanding of the subject matter to deliver comprehensive tutoring for a range of ages and abilities, from KS3 to undergraduate level",
+				"Tailored sessions to cater to personal needs and preferences, employing a range of teaching methods, and evaluating them with student feedback",
+				"Guaranteed complete syllabus coverage ahead of crucial exam deadlines, through structured timetabling, and regular evaluation of students' progress"
 			]
 		},
 		{
