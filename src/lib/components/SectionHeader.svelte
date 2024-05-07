@@ -11,12 +11,12 @@
 			text-xl text-brand small-caps tracking-widest
 			flex gap-3 items-center
 			border-solid border-b border-black
-			px-1
+			px-2
 		"
 	>
 		<Icon {icon} /> <span>{title}</span>
 	</div>
-	<div class="p-2">
+	<div class="p-2 flex flex-col gap-2">
 		<slot />
 	</div>
 </div>

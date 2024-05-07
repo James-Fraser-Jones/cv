@@ -6,7 +6,7 @@
 	export let url;
 </script>
 
-<a class="flex gap-2 items-center text-brand" href={url} target="_blank">
+<a class="flex gap-2 items-center text-brand" href={url ? url : null} target="_blank">
 	<Icon {icon} />
 	{text}
 </a>
