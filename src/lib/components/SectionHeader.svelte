@@ -16,7 +16,7 @@
 	>
 		<Icon {icon} /> <span>{title}</span>
 	</div>
-	<div class="px-1 pt-1">
+	<div class="p-2">
 		<slot />
 	</div>
 </div>

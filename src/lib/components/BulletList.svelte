@@ -5,7 +5,7 @@
 <div class="flex justify-between font-semibold">
 	<span>{entries[0]}</span>
 	{#each entries.slice(1) as entry}
-		<span>•</span>
+		<span class="mx-1">•</span>
 		<span>{entry}</span>
 	{/each}
 </div>

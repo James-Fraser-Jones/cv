@@ -16,6 +16,7 @@
             flex flex-col justify-between shrink-0
             text-right
             pr-2 border-solid border-r border-black
+			w-first-column
         "
 	>
 		<div>{to}</div>
@@ -30,7 +31,7 @@
 			</div>
 		{/each}
 	</div>
-	<div class="shrink-0 pl-2">
+	<div class="shrink-0 pl-2 w-last-column">
 		<IconLink {...location} />
 	</div>
 </div>
