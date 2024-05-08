@@ -1,5 +1,5 @@
 {
-	"header": {
+	"Header": {
 		"name": "James Fraser-Jones",
 		"title": "Software Engineer",
 		"location": "London, UK",
@@ -26,10 +26,12 @@
 			}
 		]
 	},
-	"skills": {
-		"icon": "faTasks",
-		"title": "Skills",
-		"entries": [
+	"Skills": {
+		"header": {
+			"icon": "faTasks",
+			"title": "Skills"
+		},
+		"list": [
 			"Typescript/JS",
 			"React",
 			"Node",
@@ -42,13 +44,15 @@
 			"C/C++"
 		]
 	},
-	"experience": {
-		"icon": "faSuitcase",
-		"title": "Experience",
+	"Experience": {
+		"header": {
+			"icon": "faSuitcase",
+			"title": "Experience"
+		},
 		"entries": [
 			{
 				"title": "C++ Developer",
-				"location": {
+				"locationlink": {
 					"icon": "faMapMarker",
 					"text": "Inspired Inc.",
 					"url": "https://inseinc.com"
@@ -65,7 +69,7 @@
 			},
 			{
 				"title": "Full-Stack Developer & CS/Maths Tutor",
-				"location": {
+				"locationlink": {
 					"icon": "faSuitcase",
 					"text": "Freelance",
 					"url": ""
@@ -82,7 +86,7 @@
 			},
 			{
 				"title": "Full-Stack React/ASP.NET Developer",
-				"location": {
+				"locationlink": {
 					"icon": "faMapMarker",
 					"text": "Spark Data",
 					"url": "https://sparkdata.co.uk"
@@ -97,7 +101,7 @@
 			},
 			{
 				"title": "Full-Stack React/Node Developer",
-				"location": {
+				"locationlink": {
 					"icon": "faMapMarker",
 					"text": "Liskeard Auctions",
 					"url": "https://easyliveauction.com/liskeardauctionrooms"
@@ -111,13 +115,15 @@
 			}
 		]
 	},
-	"education": {
-		"icon": "faMortarBoard",
-		"title": "Education",
+	"Education": {
+		"header": {
+			"icon": "faMortarBoard",
+			"title": "Education"
+		},
 		"entries": [
 			{
 				"title": "BSc Computer Science",
-				"location": {
+				"locationlink": {
 					"icon": "faMapMarker",
 					"text": "Bristol University",
 					"url": "https://bristol.ac.uk"
@@ -131,23 +137,25 @@
 			},
 			{
 				"title": "A Levels",
-				"location": {
+				"locationlink": {
 					"icon": "faMapMarker",
 					"text": "Cabury College",
 					"url": "https://cadcol.ac.uk"
 				},
 				"from": "2012",
 				"to": "2014",
-				"details": ["Maths • Further Maths • Physics • Computing (AS)"]
+				"details": ["Maths - Further Maths - Physics - Computing (AS)"]
 			}
 		]
 	},
-	"projects": {
-		"icon": "faLaptop",
-		"title": "Projects",
+	"Projects": {
+		"header": {
+			"icon": "faLaptop",
+			"title": "Projects"
+		},
 		"entries": [
 			{
-				"title": {
+				"titlelink": {
 					"icon": "faLink",
 					"text": "Circuit",
 					"url": "https://www.fraser-jones.co.uk/projects/circuit"
@@ -156,8 +164,8 @@
 					"A fully-fledged parser, and call-by-name evaluator, for Lambda Calculus",
 					"Uses a novel method to generate circuit-like diagrams that clarify the binding structure of lambda terms"
 				],
-				"technologies": ["Typescript", "React", "Node", "AWS", "Haskell", "Stack"],
-				"repository": {
+				"techlist": ["Typescript", "React", "Node", "AWS", "Haskell", "Stack"],
+				"repolink": {
 					"icon": "faGithub",
 					"text": "Repo",
 					"url": "https://github.com/James-Fraser-Jones/circuit"

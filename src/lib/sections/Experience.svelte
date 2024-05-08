@@ -1,37 +1,18 @@
 <script>
-	import IconLink from '$lib/components/IconLink.svelte';
-	import Icon from '$lib/components/Icon.svelte';
+	import HistoryTable from '$lib/components/HistoryTable.svelte';
+	import AngleList from '$lib/components/AngleList.svelte';
+	import SectionHeader from '$lib/components/SectionHeader.svelte';
 
-	export let title;
-	export let location;
-	export let from;
-	export let to;
-	export let details;
-	export let count = 3;
+	export let header;
+	export let entries;
 </script>
 
-<div class="flex">
-	<div
-		class="
-            flex flex-col justify-between shrink-0
-            text-right
-            pr-2 border-solid border-r border-black
-			w-first-column
-        "
-	>
-		<div>{to}</div>
-		<div>{from}</div>
-	</div>
-	<div class="grow flex flex-col pl-2 gap-1">
-		<div class="font-semibold">{title}</div>
-		{#each details.slice(0, count) as detail}
-			<div class="flex gap-2 ml-2">
-				<div class="mt-1 text-xs"><Icon icon="faAngleRight" /></div>
-				<div class="grow text-justify tracking-tight">{detail}</div>
+<SectionHeader {...header}>
+	{#each entries as { title, locationlink, from, to, details }}
+		<HistoryTable {title} {locationlink} {from} {to}>
+			<div class="pl-2 pt-1">
+				<AngleList {details} />
 			</div>
-		{/each}
-	</div>
-	<div class="shrink-0 pl-2 w-last-column">
-		<IconLink {...location} />
-	</div>
-</div>
+		</HistoryTable>
+	{/each}
+</SectionHeader>

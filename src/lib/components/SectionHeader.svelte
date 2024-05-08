@@ -5,7 +5,7 @@
 	export let title;
 </script>
 
-<div>
+<div class="flex flex-col">
 	<div
 		class="
 			text-xl text-brand small-caps tracking-widest
@@ -16,7 +16,7 @@
 	>
 		<Icon {icon} /> <span>{title}</span>
 	</div>
-	<div class="p-2 flex flex-col gap-2">
+	<div class="px-2 pt-2 flex flex-col gap-2">
 		<slot />
 	</div>
 </div>
