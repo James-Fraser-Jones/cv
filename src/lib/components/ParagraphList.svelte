@@ -5,6 +5,6 @@
 
 <div class="flex flex-col">
 	{#each details.slice(0, count) as detail}
-		<p>{detail}</p>
+		<p>{@html detail}</p>
 	{/each}
 </div>

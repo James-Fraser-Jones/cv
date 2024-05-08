@@ -8,7 +8,7 @@
 	{#each details.slice(0, count) as detail}
 		<div class="flex gap-2">
 			<span class="text-xs mt-0.5"><Icon icon="faAngleRight" /></span>
-			<p class="grow">{detail}</p>
+			<p class="grow">{@html detail}</p>
 		</div>
 	{/each}
 </div>
