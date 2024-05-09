@@ -18,4 +18,32 @@
 	export let icon;
 </script>
 
-<Fa icon={eval(icon)} />
+<Fa
+	icon={icon === 'faSuitcase'
+		? faSuitcase
+		: icon === 'faTasks'
+			? faTasks
+			: icon === 'faMortarBoard'
+				? faMortarBoard
+				: icon === 'faLaptop'
+					? faLaptop
+					: icon === 'faMobilePhone'
+						? faMobilePhone
+						: icon === 'faEnvelope'
+							? faEnvelope
+							: icon === 'faInfo'
+								? faInfo
+								: icon === 'faMapMarker'
+									? faMapMarker
+									: icon === 'faLink'
+										? faLink
+										: icon === 'faAngleRight'
+											? faAngleRight
+											: icon === 'faGlobe'
+												? faGlobe
+												: icon === 'faLinkedin'
+													? faLinkedin
+													: icon === 'faGithub'
+														? faGithub
+														: faGithub}
+/>

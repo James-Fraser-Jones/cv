@@ -11,9 +11,6 @@
 	<div
 		class="bg-slate-50 shadow-2xl w-a4 h-a4 p-16 flex flex-col gap-3 text-base leading-snug tracking-normal"
 	>
-		<!-- {#each Object.entries(content) as [section, data]}
-			<svelte:component this={eval(section)} {...data} />
-		{/each} -->
 		<Header {...content.Header} />
 		<Skills {...content.Skills} />
 		<Experience {...content.Experience} />

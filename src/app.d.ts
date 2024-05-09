@@ -14,4 +14,8 @@ declare module '@fortawesome/pro-solid-svg-icons/index.es' {
 	export * from '@fortawesome/pro-solid-svg-icons';
 }
 
+declare module '@fortawesome/pro-brands-svg-icons/index.es' {
+	export * from '@fortawesome/pro-brands-svg-icons';
+}
+
 export {};
