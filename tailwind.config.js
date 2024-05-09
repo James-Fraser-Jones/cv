@@ -13,7 +13,8 @@ export default {
 				a4: '210mm'
 			},
 			height: {
-				a4: '297mm'
+				a4: '297mm',
+				'5.5-em': '1.375em'
 			}
 		},
 		fontFamily: {

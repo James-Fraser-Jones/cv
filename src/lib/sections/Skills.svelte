@@ -6,6 +6,6 @@
 	export let list;
 </script>
 
-<SectionHeader {...header}>
+<div class="my-1">
 	<BulletSeperator {list} />
-</SectionHeader>
+</div>

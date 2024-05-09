@@ -8,7 +8,9 @@
 </script>
 
 <div class="bg-slate-100 p-14 flex justify-center">
-	<div class="bg-slate-50 shadow-2xl flex flex-col gap-2 w-a4 h-a4 p-14">
+	<div
+		class="bg-slate-50 shadow-2xl w-a4 h-a4 p-16 flex flex-col gap-3 text-base leading-snug tracking-normal"
+	>
 		<!-- {#each Object.entries(content) as [section, data]}
 			<svelte:component this={eval(section)} {...data} />
 		{/each} -->

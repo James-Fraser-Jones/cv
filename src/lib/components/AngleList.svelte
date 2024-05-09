@@ -7,7 +7,7 @@
 <div class="flex flex-col gap-1">
 	{#each details.slice(0, count) as detail}
 		<div class="flex gap-2">
-			<span class="text-xs mt-0.5"><Icon icon="faAngleRight" /></span>
+			<span class="h-5.5-em flex items-center"><Icon icon="faAngleRight" /></span>
 			<p class="grow">{@html detail}</p>
 		</div>
 	{/each}

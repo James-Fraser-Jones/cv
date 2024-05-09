@@ -11,7 +11,7 @@
 <SectionHeader {...header}>
 	{#each entries as { titlelink, details, techlist, repolink }}
 		<div class="flex flex-col gap-1">
-			<div class="text-base font-semibold">
+			<div class="text-lg font-semibold">
 				<IconLink {...titlelink} />
 			</div>
 			<div class="grow tracking-tight">
