@@ -8,5 +8,5 @@
 
 <a class="flex gap-2 items-center text-brand" href={url ? url : null} target="_blank">
 	<Icon {icon} />
-	{text}
+	<span class="shrink-0">{text}</span>
 </a>

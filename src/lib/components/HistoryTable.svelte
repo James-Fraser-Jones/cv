@@ -11,12 +11,22 @@
 	<span
 		class="
             shrink-0 pr-2
-            flex flex-col justify-between
-            border-solid border-r border-black
-            text-right
+            flex flex-col items-center
+            border-solid border-l border-r border-black
+            text-center
+			w-dates
         "
 	>
 		<div>{to}</div>
+		<div class="grow flex">
+			<div class="grow border-solid border-r border-black" />
+			<div class="grow" />
+		</div>
+		<IconLink {...locationlink} />
+		<div class="grow flex">
+			<div class="grow border-solid border-r border-black" />
+			<div class="grow" />
+		</div>
 		<div>{from}</div>
 	</span>
 	<span class="grow pl-2 flex flex-col">
@@ -24,8 +34,5 @@
 		<div class="tracking-tight">
 			<slot />
 		</div>
-	</span>
-	<span class="shrink-0 pl-2">
-		<IconLink {...locationlink} />
 	</span>
 </div>

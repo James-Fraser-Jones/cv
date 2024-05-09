@@ -10,7 +10,8 @@ export default {
 				brand: '#0e8c7f'
 			},
 			width: {
-				a4: '210mm'
+				a4: '210mm',
+				dates: '140px'
 			},
 			height: {
 				a4: '297mm',
