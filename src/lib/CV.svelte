@@ -7,17 +7,15 @@
 	import Projects from '$lib/sections/Projects.svelte';
 </script>
 
-<div class="bg-slate-100 p-14 flex justify-center text-sm leading-tight text-justify">
-	<div class="size-a4 bg-slate-50 shadow-2xl p-12 flex flex-col gap-3">
-		{#each Object.entries(content) as [section, data]}
+<div class="bg-slate-100 p-14 flex justify-center">
+	<div class="bg-slate-50 shadow-2xl flex flex-col gap-2 w-a4 h-a4 p-14">
+		<!-- {#each Object.entries(content) as [section, data]}
 			<svelte:component this={eval(section)} {...data} />
-		{/each}
+		{/each} -->
+		<Header {...content.Header} />
+		<Skills {...content.Skills} />
+		<Experience {...content.Experience} />
+		<Education {...content.Education} />
+		<Projects {...content.Projects} />
 	</div>
 </div>
-
-<style>
-	.size-a4 {
-		width: 210mm;
-		height: 297mm;
-	}
-</style>

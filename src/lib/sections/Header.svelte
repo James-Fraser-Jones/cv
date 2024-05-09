@@ -7,9 +7,9 @@
 	export let links;
 </script>
 
-<div class="flex items-center">
+<div class="flex">
 	<span class="grow flex flex-col">
-		<h1 class="text-2xl">{name}</h1>
+		<h1 class="text-3xl">{name}</h1>
 		<h2 class="text-xl text-brand">{title}</h2>
 		<h3 class="text-base text-brand -mt-1">{location}</h3>
 	</span>

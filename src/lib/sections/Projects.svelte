@@ -17,7 +17,7 @@
 			<div class="grow tracking-tight">
 				<ParagraphList {details} />
 			</div>
-			<div class="flex gap-3 font-semibold">
+			<div class="flex gap-3">
 				<BulletSeperator list={techlist} />
 				<IconLink {...repolink} />
 			</div>

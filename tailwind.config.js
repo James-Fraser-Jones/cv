@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const plugin = require('tailwindcss/plugin');
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -9,13 +10,28 @@ export default {
 				brand: '#0e8c7f'
 			},
 			width: {
-				'first-column': '69px',
-				'last-column': '133px'
+				a4: '210mm'
+			},
+			height: {
+				a4: '297mm'
 			}
 		},
 		fontFamily: {
 			sans: ['"Inter Tight"', ...defaultTheme.fontFamily.sans]
 		}
 	},
-	plugins: []
+	plugins: [
+		plugin(function ({ addBase }) {
+			addBase({
+				html: { 'font-size': '10pt' }
+			});
+		}),
+		plugin(function ({ addUtilities }) {
+			addUtilities({
+				'.small-caps': {
+					'font-variant': 'small-caps'
+				}
+			});
+		})
+	]
 };

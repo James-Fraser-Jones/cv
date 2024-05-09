@@ -7,7 +7,5 @@
 </script>
 
 <SectionHeader {...header}>
-	<div class="font-semibold">
-		<BulletSeperator {list} />
-	</div>
+	<BulletSeperator {list} />
 </SectionHeader>
