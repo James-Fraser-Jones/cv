@@ -11,7 +11,7 @@
 <div class="flex justify-center p-14 bg-slate-200 overflow-hidden min-h-screen">
 	<div
 		class="
-			flex flex-col gap-3 p-14 bg-slate-50 shadow-2xl
+			flex flex-col gap-3 p-14 bg-slate-100 shadow-2xl
 			w-a4 h-a4
 			leading-tight tracking-normal
 			relative
