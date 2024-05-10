@@ -15,5 +15,7 @@
 	>
 		<Icon {icon} /> <span>{title}</span>
 	</div>
-	<slot />
+	<div class="px-2 pt-2">
+		<slot />
+	</div>
 </div>
