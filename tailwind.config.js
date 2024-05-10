@@ -12,7 +12,8 @@ export default {
 			},
 			width: {
 				a4: '210mm',
-				dates: '30mm'
+				dates: '30mm',
+				'4-em': '1em'
 			},
 			height: {
 				a4: '297mm',
