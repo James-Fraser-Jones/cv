@@ -136,10 +136,7 @@
 				},
 				"from": "2014",
 				"to": "2018",
-				"details": [
-					"Thesis: Haskell Lambda-Cube Interpreter",
-					"(Functional Programming, Lambda Calculus, Type Theory)"
-				],
+				"details": ["Haskell Lambda-Cube Interpreter", "(Functional Programming, Type Theory)"],
 				"details-old": []
 			},
 			{
@@ -151,7 +148,7 @@
 				},
 				"from": "2012",
 				"to": "2014",
-				"details": ["Maths - A* &nbsp; Further Maths - A", "Physics - B &nbsp; Computing AS - B"],
+				"details": ["Maths, Further Maths", "Physics, Computing AS"],
 				"details-old": []
 			}
 		]

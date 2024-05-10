@@ -11,25 +11,20 @@
 <div class="flex">
 	<span
 		class="
-			shrink-0 flex flex-col items-center
-            pr-2
+			shrink-0 flex flex-col items-center pr-2
             border-solid border-black border-r
-            text-center
-			w-dates
+            text-center w-dates
         "
 	>
 		<div>{to}</div>
 		<DateRangePadder />
-		<div class="tracking-tighter"><Link {...locationlink} /></div>
+		<div>
+			<Link {...locationlink} />
+		</div>
 		<DateRangePadder />
 		<div>{from}</div>
 	</span>
-	<span
-		class="
-		grow flex flex-col
-		pl-2
-		"
-	>
+	<span class="grow flex flex-col pl-2">
 		<div class="font-semibold">
 			{title}
 		</div>

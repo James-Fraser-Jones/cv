@@ -8,7 +8,7 @@
 </script>
 
 <SectionHeader {...header}>
-	<div class="flex flex-col gap-3 px-2 pt-2">
+	<div class="flex gap-3 px-2 pt-2">
 		{#each entries as { title, locationlink, from, to, details }}
 			<HistoryTable {title} {locationlink} {from} {to}>
 				<ParagraphList {details} />

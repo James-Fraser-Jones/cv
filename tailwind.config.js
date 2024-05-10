@@ -7,12 +7,12 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				brand: '#AC781E',
-				link: '#6E3904'
+				brand: '#A50021',
+				link: '#AB4E52'
 			},
 			width: {
 				a4: '210mm',
-				dates: '27mm'
+				dates: '30mm'
 			},
 			height: {
 				a4: '297mm',
