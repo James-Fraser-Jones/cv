@@ -8,11 +8,13 @@
 </script>
 
 <SectionHeader {...header}>
-	{#each entries as { title, locationlink, from, to, details }}
-		<HistoryTable {title} {locationlink} {from} {to}>
-			<div class="pl-2 pt-1">
-				<AngleList {details} />
-			</div>
-		</HistoryTable>
-	{/each}
+	<div class="flex flex-col gap-3 px-2 pt-2">
+		{#each entries as { title, locationlink, from, to, details }}
+			<HistoryTable {title} {locationlink} {from} {to}>
+				<div class="pt-1 pl-2">
+					<AngleList {details} />
+				</div>
+			</HistoryTable>
+		{/each}
+	</div>
 </SectionHeader>

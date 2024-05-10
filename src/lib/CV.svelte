@@ -7,9 +7,13 @@
 	import Projects from '$lib/sections/Projects.svelte';
 </script>
 
-<div class="bg-slate-100 p-14 flex justify-center">
+<div class="flex justify-center p-14 bg-slate-100">
 	<div
-		class="bg-slate-50 shadow-2xl w-a4 h-a4 p-16 flex flex-col gap-3 text-base leading-snug tracking-normal"
+		class="
+			flex flex-col gap-3 p-14 bg-slate-50 shadow-2xl
+			w-a4 h-a4
+			leading-tight tracking-normal
+		"
 	>
 		<Header {...content.Header} />
 		<Skills {...content.Skills} />

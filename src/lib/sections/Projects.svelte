@@ -9,18 +9,20 @@
 </script>
 
 <SectionHeader {...header}>
-	{#each entries as { titlelink, details, techlist, repolink }}
-		<div class="flex flex-col gap-1">
-			<div class="text-lg font-semibold">
-				<IconLink {...titlelink} />
+	<div class="flex flex-col gap-3 px-2 pt-2">
+		{#each entries as { titlelink, details, techlist, repolink }}
+			<div class="flex flex-col gap-1">
+				<div class="text-lg font-semibold">
+					<IconLink {...titlelink} />
+				</div>
+				<div class="grow">
+					<ParagraphList {details} />
+				</div>
+				<div class="flex gap-3">
+					<BulletSeperator list={techlist} />
+					<IconLink {...repolink} />
+				</div>
 			</div>
-			<div class="grow tracking-tight">
-				<ParagraphList {details} />
-			</div>
-			<div class="flex gap-3">
-				<BulletSeperator list={techlist} />
-				<IconLink {...repolink} />
-			</div>
-		</div>
-	{/each}
+		{/each}
+	</div>
 </SectionHeader>

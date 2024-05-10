@@ -6,7 +6,16 @@
 	export let url;
 </script>
 
-<a class="flex gap-2 items-center text-brand" href={url ? url : null} target="_blank">
+<a
+	class="
+		flex gap-2 items-center
+		{url ? 'text-link hover:underline' : ''}
+	"
+	href={url ? url : null}
+	target="_blank"
+>
 	<Icon {icon} />
-	<span class="shrink-0">{text}</span>
+	<span class="shrink-0">
+		{text}
+	</span>
 </a>

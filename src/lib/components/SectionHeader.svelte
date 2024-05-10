@@ -8,15 +8,12 @@
 <div class="flex flex-col">
 	<div
 		class="
+			flex gap-3 items-center px-2
 			text-xl text-brand small-caps tracking-widest
-			flex gap-3 items-center
-			border-solid border-b border-black
-			px-2
+			border-solid border-black border-b
 		"
 	>
 		<Icon {icon} /> <span>{title}</span>
 	</div>
-	<div class="p-2 flex flex-col gap-2">
-		<slot />
-	</div>
+	<slot />
 </div>

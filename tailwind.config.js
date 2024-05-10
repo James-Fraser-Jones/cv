@@ -7,11 +7,12 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				brand: '#0e8c7f'
+				brand: '#AC781E',
+				link: '#6E3904'
 			},
 			width: {
 				a4: '210mm',
-				dates: '140px'
+				dates: '27mm'
 			},
 			height: {
 				a4: '297mm',
@@ -25,7 +26,7 @@ export default {
 	plugins: [
 		plugin(function ({ addBase }) {
 			addBase({
-				html: { 'font-size': '10pt' }
+				html: { 'font-size': '11pt' }
 			});
 		}),
 		plugin(function ({ addUtilities }) {
