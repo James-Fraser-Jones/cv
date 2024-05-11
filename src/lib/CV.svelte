@@ -34,5 +34,11 @@
 		backdrop-invert backdrop-hue-rotate-180
 	"
 >
-	<img src="sun.svg" alt="triangle with all three sides equal" height="600" width="600" />
+	<img
+		class="backdrop-invert backdrop-hue-rotate-180 mix-blend-multiply"
+		src="sun.svg"
+		alt="triangle with all three sides equal"
+		height="600"
+		width="600"
+	/>
 </div>
