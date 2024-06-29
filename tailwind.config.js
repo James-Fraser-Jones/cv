@@ -7,8 +7,9 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				brand: '#A50021',
-				link: '#AB4E52'
+				brand: '#990D35',
+				link: '#D52941',
+				linkvisited: '#D52979'
 			},
 			width: {
 				a4: '210mm',

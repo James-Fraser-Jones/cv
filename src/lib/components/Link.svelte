@@ -3,6 +3,10 @@
 	export let url;
 </script>
 
-<a class={url ? 'text-link hover:underline' : ''} href={url ? url : null} target="_blank">
+<a
+	class={url ? 'text-link visited:text-linkvisited hover:underline' : ''}
+	href={url ? url : null}
+	target="_blank"
+>
 	{text}
 </a>

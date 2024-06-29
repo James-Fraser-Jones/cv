@@ -9,7 +9,7 @@
 <a
 	class="
 		flex gap-2 items-center
-		{url ? 'text-link hover:underline' : ''}
+		{url ? 'text-link visited:text-linkvisited hover:underline' : ''}
 	"
 	href={url ? url : null}
 	target="_blank"
