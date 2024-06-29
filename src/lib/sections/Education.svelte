@@ -1,5 +1,5 @@
 <script>
-	import HistoryTable from '$lib/components/HistoryTable.svelte';
+	import EducationTable from '$lib/components/EducationTable.svelte';
 	import ParagraphList from '$lib/components/ParagraphList.svelte';
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
 
@@ -8,11 +8,17 @@
 </script>
 
 <SectionHeader {...header}>
-	<div class="flex justify-between">
-		{#each entries as { title, locationlink, from, to, details }}
-			<HistoryTable {title} {locationlink} {from} {to}>
+	<div class="flex justify-evenly">
+		{#each [entries[0]] as { title, locationlink, from, to, details }}
+			<EducationTable {title} {locationlink} {from} {to}>
 				<ParagraphList {details} />
-			</HistoryTable>
+			</EducationTable>
+		{/each}
+		{#each entries.slice(1) as { title, locationlink, from, to, details }}
+			<div class="border-solid border-black border-r"></div>
+			<EducationTable {title} {locationlink} {from} {to}>
+				<ParagraphList {details} />
+			</EducationTable>
 		{/each}
 	</div>
 </SectionHeader>

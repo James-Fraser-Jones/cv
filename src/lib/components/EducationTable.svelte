@@ -1,6 +1,5 @@
 <script>
 	import Link from '$lib/components/Link.svelte';
-	import DateRangePadder from '$lib/components/DateRangePadder.svelte';
 
 	export let title;
 	export let locationlink;
@@ -8,20 +7,19 @@
 	export let to;
 </script>
 
-<div class="flex">
+<div class="flex items-center gap-2">
 	<span
 		class="
 			shrink-0 flex flex-col items-center
-            text-center w-dates
+            text-center
         "
 	>
-		<div>{to}</div>
-		<DateRangePadder />
+		<Link {...locationlink} />
 		<div>
-			<Link {...locationlink} />
+			<span>{from}</span>
+			<span>-</span>
+			<span>{to}</span>
 		</div>
-		<DateRangePadder />
-		<div>{from}</div>
 	</span>
 	<span class="grow flex flex-col">
 		<div class="font-semibold">
