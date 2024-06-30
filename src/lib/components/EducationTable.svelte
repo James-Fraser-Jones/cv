@@ -7,10 +7,10 @@
 	export let to;
 </script>
 
-<div class="flex items-center gap-2">
+<div class="flex gap-3">
 	<span
 		class="
-			shrink-0 flex flex-col items-center
+			shrink-0 flex flex-col items-center justify-evenly
             text-center
         "
 	>

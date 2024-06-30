@@ -8,7 +8,7 @@
 	export let to;
 </script>
 
-<div class="flex">
+<div class="flex gap-2">
 	<span
 		class="
 			shrink-0 flex flex-col items-center

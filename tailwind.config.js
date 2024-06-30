@@ -1,5 +1,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 const plugin = require('tailwindcss/plugin');
+const colors = require('tailwindcss/colors');
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -7,13 +8,15 @@ export default {
 	theme: {
 		extend: {
 			colors: {
+				dark: colors.slate[950],
+				light: colors.slate[50],
 				brand: '#990D35',
 				link: '#D52941',
 				linkvisited: '#D52979'
 			},
 			width: {
 				a4: '210mm',
-				dates: '30mm',
+				dates: '22mm',
 				'4-em': '1em'
 			},
 			height: {

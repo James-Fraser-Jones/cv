@@ -51,6 +51,18 @@
 		},
 		"entries": [
 			{
+				"title": "Full-Stack Contractor",
+				"locationlink": {
+					"icon": "faMapMarker",
+					"text": "Google Deepmind",
+					"url": "https://deepmind.google/"
+				},
+				"from": "Jan 2024",
+				"to": "May 2024",
+				"details": ["...<br/>...", "...<br/>...", "...<br/>..."],
+				"details-old": []
+			},
+			{
 				"title": "C++ Developer",
 				"locationlink": {
 					"icon": "faMapMarker",
@@ -93,7 +105,7 @@
 				"locationlink": {
 					"icon": "faMapMarker",
 					"text": "Spark Data Systems",
-					"url": "https://sparkdata.co.uk"
+					"url": "https://www.sparkdata.co.uk"
 				},
 				"from": "Sept 2018",
 				"to": "Aug 2019",
@@ -103,7 +115,9 @@
 					"Proposed and implemented dynamic documentation features for our products, clarifying their usage and functionality, to the benefit of clients and colleagues"
 				],
 				"details-old": []
-			},
+			}
+		],
+		"entries-old": [
 			{
 				"title": "Full-Stack React/Node Developer",
 				"locationlink": {
