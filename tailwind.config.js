@@ -16,11 +16,13 @@ export default {
 			},
 			width: {
 				a4: '210mm',
+				'a4-inch': '235.4mm',
 				dates: '22mm',
 				'4-em': '1em'
 			},
 			height: {
 				a4: '297mm',
+				'a4-inch': '322.4mm',
 				'5.5-em': '1.375em'
 			}
 		},

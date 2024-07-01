@@ -7,18 +7,26 @@
 	import Projects from '$lib/sections/Projects.svelte';
 </script>
 
-<div class="flex justify-center p-14 bg-slate-200 overflow-hidden min-h-screen">
+<div class="bg-slate-200">
 	<div
-		class="
-			flex flex-col gap-3 p-14 bg-light shadow-2xl
-			w-a4 h-a4
-			leading-tight tracking-normal text-dark
-		"
+		class=" bg-slate-200
+				flex justify-center items-center
+				w-a4-inch h-a4-inch
+				m-auto
+			"
 	>
-		<Header {...content.Header} />
-		<Skills {...content.Skills} />
-		<Experience {...content.Experience} />
-		<Education {...content.Education} />
-		<Projects {...content.Projects} />
+		<div
+			class=" p-14 bg-light shadow-2xl
+					shrink-0 flex flex-col gap-3
+					w-a4 h-a4
+					leading-tight tracking-normal text-dark
+				"
+		>
+			<Header {...content.Header} />
+			<Skills {...content.Skills} />
+			<Experience {...content.Experience} />
+			<Education {...content.Education} />
+			<Projects {...content.Projects} />
+		</div>
 	</div>
 </div>
