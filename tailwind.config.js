@@ -27,7 +27,8 @@ export default {
 			}
 		},
 		fontFamily: {
-			sans: ['"Inter Tight"', ...defaultTheme.fontFamily.sans]
+			sans: ['"Inter Tight"', ...defaultTheme.fontFamily.sans],
+			mono: ['"Source Code Pro"', ...defaultTheme.fontFamily.mono]
 		}
 	},
 	plugins: [
