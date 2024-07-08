@@ -2,7 +2,7 @@
 	import CV from '$lib/CV.svelte';
 </script>
 
-<div class="bg-slate-200">
+<div class="bg-slate-200 min-h-screen">
 	<div
 		class=" bg-slate-200
 				flex justify-center items-center
