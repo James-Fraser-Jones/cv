@@ -5,6 +5,11 @@
 	import Experience from '$lib/sections/Experience.svelte';
 	import Education from '$lib/sections/Education.svelte';
 	import Projects from '$lib/sections/Projects.svelte';
+	import { makePostRequest } from './utils';
+
+	makePostRequest('(\\x -> x) T').then((response) => {
+		console.log(response);
+	});
 </script>
 
 <div
