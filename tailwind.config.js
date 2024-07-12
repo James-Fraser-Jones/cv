@@ -8,11 +8,11 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				dark: colors.slate[950],
-				light: colors.slate[50],
-				brand: '#990D35',
-				link: '#D52941',
-				linkvisited: '#D52979'
+				dark: '#202122',
+				light: 'white',
+				brand: '#3F00FF',
+				link: '#36C',
+				linkvisited: '#6B4BA1'
 			},
 			width: {
 				a4: '210mm',

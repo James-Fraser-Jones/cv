@@ -3,6 +3,7 @@
 	import BulletSeperator from '$lib/components/BulletSeperator.svelte';
 	import ParagraphList from '$lib/components/ParagraphList.svelte';
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
+	import Link from '$lib/components/Link.svelte';
 
 	export let header;
 	export let entries;
@@ -13,7 +14,7 @@
 		{#each entries as { titlelink, details, techlist, repolink }}
 			<div class="flex flex-col gap-1">
 				<div class="text-lg font-semibold">
-					<IconLink {...titlelink} />
+					<Link {...titlelink} />
 				</div>
 				<div class="grow">
 					<ParagraphList {details} />

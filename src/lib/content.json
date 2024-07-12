@@ -32,12 +32,13 @@
 			"title": "Skills"
 		},
 		"list": [
-			"Typescript/JS",
+			"TS/JS",
 			"React",
 			"Node",
-			"C#/ASP.NET",
+			"ASP.NET",
 			"SQL",
 			"Python",
+			"Angular",
 			"AWS",
 			"Git",
 			"Linux",
@@ -187,7 +188,7 @@
 				"techlist": ["Typescript", "React", "Node", "AWS", "Haskell", "Stack"],
 				"repolink": {
 					"icon": "faGithub",
-					"text": "Repo",
+					"text": "",
 					"url": "https://github.com/James-Fraser-Jones/circuit"
 				}
 			}
