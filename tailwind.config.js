@@ -10,7 +10,7 @@ export default {
 			colors: {
 				dark: '#202122',
 				light: 'white',
-				brand: '#3F00FF',
+				brand: '#264c99',
 				link: '#36C',
 				linkvisited: '#6B4BA1'
 			},

@@ -71,10 +71,10 @@
 					"url": "https://inseinc.com"
 				},
 				"from": "Feb 2023",
-				"to": "Present",
+				"to": "Dec 2023",
 				"details": [
 					"Enhanced codebase reliability through targeted refactoring of problematic classes and interfaces, decreasing related Jira issues raised by QA by ∼40%",
-					"Extensively utilised debugging tools to pinpoint and resolve numerous game-breaking bugs, whilst working under tight release schedules",
+					"Made extensive use of debugging tools to pinpoint and resolve numerous game-breaking bugs, whilst working under tight release schedules",
 					"Leveraged the Python ecosystem to streamline data hand-over procedures, strengthening collaboration with other departments"
 				],
 				"details-old": [
@@ -112,7 +112,7 @@
 				"to": "Aug 2019",
 				"details": [
 					"Engaged in rapid iteration with the UI/UX team, promptly integrating client reviews to promote usability, develop priority features and resolve issues",
-					"Leveraged SQL optimization, indexing, and caching, to achieve 50% reduced query response times for several high-traffic client databases",
+					"Utilised SQL optimization, indexing, and caching, to achieve 50% reduced query response times for several high-traffic client databases",
 					"Proposed and implemented dynamic documentation features for our products, clarifying their usage and functionality, to the benefit of clients and colleagues"
 				],
 				"details-old": []
